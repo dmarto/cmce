@@ -1,8 +1,7 @@
 Control Meta CSP Elements (CMCE)
 ================================
 
-Firefox web-extension, that gives you a toggle for Content-Security-Policy
-introduced to clients with <meta> tags (http-equiv).
+Firefox web-extension, that controls Content-Security-Policy introduced to clients with `<meta>` tags.
 
     <meta http-equiv="Content-Security-Policy" content="default-src https:">
 
