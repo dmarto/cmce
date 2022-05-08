@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+
+  "name": "Control Meta CSP Elements (CMCE)",
+  "description": "Toggle for Content-Security-Policy introduced to client with <meta> tags (http-equiv). NB! This does not control CSP headers.",
+
+  "author": "Martin Dimov",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "cmce@temporary-addon",
+      "strict_min_version": "99.0"
+    }
+  },
+
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "icon.svg",
+    "default_title": "Content-Security-Policy is on/off (click for toggle)"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ]
+}
