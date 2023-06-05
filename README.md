@@ -3,7 +3,7 @@ Control Meta CSP Elements (CMCE)
 
 Firefox web-extension, that controls Content-Security-Policy introduced to clients with `<meta>` tags.
 
-    <meta http-equiv="Content-Security-Policy" content="default-src https:">
+    <meta http-equiv="Content-Security-Policy" content="... policy ...">
 
 NB! This add-on does NOT control CSP headers. Find another one for that.
 
